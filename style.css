@@ -1,0 +1,54 @@
+body {
+    background-color: white;
+}
+
+.container {
+   margin-top: 50px;
+   margin-left: 400px;
+}
+
+.tabMenu {
+    position: relative;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    background-color: blue;
+    color: white;
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.slider {
+    background-color: blueviolet;
+    height: 5px;
+    transition: all 0.4s ease-in-out;
+}
+
+.homeLink {
+   display: none;
+}
+
+.img {
+    width: 1000px;
+    height: 600px;
+    margin-left: 100px;
+}
+
+.arrayImg {
+    display: none;
+    margin-top: 30px;
+}
+
+.homeImg {
+    width: 500px;
+    height: 350px;
+    margin-left: 425px;
+}
